@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laravel" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
@@ -109,6 +112,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lgxx4ZKTgavAO37NgZWiOZcQie" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -118,7 +122,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -127,11 +131,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\laravel.v1\resources\lang" />
       <recent name="C:\OpenServer\domains\laravel.v1\resources\views\posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -166,6 +171,21 @@
       <workItem from="1608658000007" duration="1123000" />
       <workItem from="1608727412745" duration="9293000" />
       <workItem from="1608736989119" duration="15000" />
+      <workItem from="1608800397380" duration="2099000" />
+      <workItem from="1608813204294" duration="4426000" />
+      <workItem from="1608817670930" duration="1233000" />
+      <workItem from="1608819206806" duration="41000" />
+      <workItem from="1608819288545" duration="80000" />
+      <workItem from="1608819386114" duration="787000" />
+      <workItem from="1608820254273" duration="299000" />
+      <workItem from="1608820642562" duration="268000" />
+      <workItem from="1608827009385" duration="659000" />
+      <workItem from="1608827753365" duration="440000" />
+      <workItem from="1608828206777" duration="68000" />
+      <workItem from="1608828287476" duration="776000" />
+      <workItem from="1608829076904" duration="219000" />
+      <workItem from="1608829309969" duration="115000" />
+      <workItem from="1608829443494" duration="1225000" />
     </task>
     <servers />
   </component>
