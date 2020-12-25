@@ -20,10 +20,10 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+    <header class="header mb-5">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark py-2">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand py-3 mr-0" href="{{ url('/') }}">
                     {{ config('app.name', 'App') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -41,11 +41,11 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Вход') }}</a>
+                                <a class="nav-link py-3 pr-4" href="{{ route('login') }}">{{ __('Вход') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Регистрация') }}</a>
+                                    <a class="nav-link py-3" href="{{ route('register') }}">{{ __('Регистрация') }}</a>
                                 </li>
                             @endif
                         @else
@@ -71,10 +71,34 @@
                 </div>
             </div>
         </nav>
+    </header>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
+    <main>
+        @yield('content')
+    </main>
+
+    <footer class="footer mt-5">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light py-2">
+            <div class="container">
+                <a class="navbar-brand py-3 mr-0" href="{{ url('/') }}">
+                    {{ config('app.name', 'App') }}
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link py-3 pr-4" href="#">{{ __('Новости') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-3" href="#">{{ __('Контакты') }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
 </body>
 </html>

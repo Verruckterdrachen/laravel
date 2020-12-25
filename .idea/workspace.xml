@@ -122,7 +122,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/errors" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -136,6 +136,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\laravel.v1\resources\views\errors" />
       <recent name="C:\OpenServer\domains\laravel.v1\resources\lang" />
       <recent name="C:\OpenServer\domains\laravel.v1\resources\views\posts" />
     </key>
@@ -186,6 +187,9 @@
       <workItem from="1608829076904" duration="219000" />
       <workItem from="1608829309969" duration="115000" />
       <workItem from="1608829443494" duration="1225000" />
+      <workItem from="1608831033461" duration="25000" />
+      <workItem from="1608880561615" duration="5963000" />
+      <workItem from="1608889110474" duration="2257000" />
     </task>
     <servers />
   </component>
